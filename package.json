@@ -1,0 +1,17 @@
+{
+  "name": "webgame",
+  "version": "0.1.0",
+  "main": "index.js",
+  "author": "Kyle Meenehan",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "dev": "parcel ./src/index.html",
+    "build": "parcel build ./src/index.html"
+  },
+  "devDependencies": {
+    "parcel-bundler": "^1.12.4",
+    "sass": "^1.32.6",
+    "typescript": "^4.1.3"
+  }
+}
